@@ -2,10 +2,10 @@ import os
 import shutil
 from sklearn.model_selection import train_test_split
 
-source_dir='datasets/images'
-train_dir='datasets/train'
-val_dir='datasets/val'
-test_dir='datasets/test'
+source_dir='datasets/images' #기준 데이터 폴더
+train_dir='datasets/train' # 학습 데이터 폴더
+val_dir='datasets/val' # 검증 데이터 폴더
+test_dir='datasets/test' # 테스트 데이터 폴더
 
 # 폴더 생성 함수
 def create_dir_if_not_exists(directory):
